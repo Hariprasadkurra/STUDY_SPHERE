@@ -105,6 +105,3 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 ***
 
-✨ With this README, your project looks **professional and production-ready**, making it easier for developers, faculty, and students to understand and adopt.  
-
-Would you like me to also **add screenshots/badges (e.g., build status, tech badges, license badge, contributors)** to make it visually attractive and GitHub-friendly?
