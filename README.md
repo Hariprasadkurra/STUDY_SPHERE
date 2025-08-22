@@ -5,6 +5,11 @@
 Built using **AngularJS** on the frontend, **Node.js with Express** on the backend, and **MongoDB** for data storage, Study Sphere provides a modern way to manage and distribute learning content anytime, anywhere.  
 
 ***
+## 🚀 Live Demo  
+
+👉 [Click here to try the live demo](https://frontend-kakw.onrender.com/)  
+
+***
 
 ## 🌍 Real-World Use Case  
 **College Department Resource Management**  
@@ -77,11 +82,7 @@ study-sphere/
 
 ***
 
-## 🚀 Live Demo  
 
-👉 [Click here to try the live demo](https://frontend-kakw.onrender.com/)  
-
-***
 
 ## 🔐 Tech Stack  
 
