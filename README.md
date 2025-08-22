@@ -1,87 +1,110 @@
+# 📚 Study Sphere – Admin-Based PDF Management System  
 
-# Study Sphere – Admin-Based PDF Management System
+**Study Sphere** is a **role-based document and user management platform** tailored for educational institutions. It allows **administrators** to securely upload, categorize, and manage academic PDFs, while **students and users** can easily access study materials through a clean and responsive interface.  
 
-## overview
-**Study Sphere** is a role-based document and user management web application designed for educational institutions. The platform allows administrators to upload, manage, and categorize academic PDFs while enabling users to view and access study material securely and efficiently.
+Built using **AngularJS** on the frontend, **Node.js with Express** on the backend, and **MongoDB** for data storage, Study Sphere provides a modern way to manage and distribute learning content anytime, anywhere.  
 
-Built using AngularJS (Frontend) and Node.js with Express (Backend), and powered by MongoDB for database management, Study Sphere provides a modern, responsive, and secure way to manage and distribute learning content.
+***
 
+## 🌍 Real-World Use Case  
+**College Department Resource Management**  
+- Faculty and admins can upload lecture notes, assignments, or past exam papers.  
+- Students can access all resources seamlessly—no more misplaced photocopies or physical records.  
 
-## Real-World Use Case
-📚 College Department Resource Management
-Faculty and admins can upload lecture notes, assignments, or previous question papers. Students can access them through a clean and organized interface—reducing the need for physical storage and making study material accessible 24/7.
+***
 
-## Features
-🔐 Admin Login Authentication
+## ✨ Features  
 
-📝 User Registration & Login
+✅ **Secure Admin Login Authentication**  
+✅ **User Registration & Login**  
+✅ **Upload & Categorize PDFs**  
+✅ **Admin Dashboard** with statistics (e.g., total PDFs, total admins)  
+✅ **Add, View, & Manage Admins**  
+✅ **Search and Access Uploaded Documents**  
+✅ **JWT-based Token Authentication**  
 
-📂 Upload and Categorize PDFs
+***
 
-📈 Dashboard with Admin Stats (Total PDFs, Total Admins)
+## ⚡ Installation  
 
-🧑‍💼 Add, View, and Manage Admins
+Follow these steps to set up **Study Sphere** on your local machine:  
 
-📑 Search and Access Uploaded Documents
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/Hariprasadkurra/STUDY_SPHERE.git
+cd STUDY_SPHERE
+```
 
-🔐 Token-Based Authorization (JWT)
-
-## Installation
-* Step 1: Clone the Repository
- git clone https://github.com/Hariprasadkurra/STUDY_SPHERE.git
-
- cd STUDY_SPHERE
-* Step 2: Install Backend Dependencies
-cd backend 
-
+### 2. Install Backend Dependencies  
+```bash
+cd backend
 npm install
-* Step 3: Start Backend Server
-cd ../backend
+```
 
+### 3. Start the Backend Server  
+```bash
 node index.js
+```
 
-## Usage
-Open your browser and navigate to http://localhost:5000.
+***
 
-Use Admin Login to access the dashboard.
+## 🎯 Usage  
 
-Upload PDFs, manage admins, and view analytics.
+1. Open your browser and go to:  
+   ```
+   http://localhost:5000
+   ```
+2. **Admin Login** → Access the dashboard to upload/manage study resources.  
+3. **User Login/Registration** → Create an account to browse and download resources.  
 
-Users can register/login and view the list of available documents.
+***
 
-## 📦 Folder Structure 
+## 📦 Folder Structure  
+
+```
 study-sphere/
-
+│
 ├── backend/
-
-│   ├── routes/
-
-│   ├── models/
-
-│   └── index.js
-
+│   ├── routes/        # API routes
+│   ├── models/        # Database models
+│   └── index.js       # Server entry point
+│
 ├── frontend/
-
 │   ├── admin_login.html
-
 │   ├── dashboard.html
-
 │   └── login.html
+```
 
+***
 
+## 🚀 Live Demo  
 
+👉 [Click here to try the live demo](https://frontend-kakw.onrender.com/)  
 
+***
 
+## 🔐 Tech Stack  
 
+- **Frontend**: AngularJS, HTML, CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Authentication**: JWT (JSON Web Token)  
+- **Hosting/Demo**: Render  
 
+***
 
- 
+## 🤝 Contributing  
 
-## 🚀 Live Demo
+Contributions are always welcome! Fork the repo, make your improvements, and submit a PR.  
 
-🔗 [Click here to try the live demo](https://frontend-kakw.onrender.com/)
+***
 
+## 📄 License  
 
+This project is licensed under the **MIT License** – feel free to use, modify, and distribute.  
 
+***
 
+✨ With this README, your project looks **professional and production-ready**, making it easier for developers, faculty, and students to understand and adopt.  
 
+Would you like me to also **add screenshots/badges (e.g., build status, tech badges, license badge, contributors)** to make it visually attractive and GitHub-friendly?
